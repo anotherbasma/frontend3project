@@ -1,0 +1,133 @@
+
+/* start navbar*/
+
+.navbar{
+	
+	
+	
+	background-color:#f4511e!important;
+	
+	
+}
+.nav-link,.navbar-brand{
+	
+	
+	color:white!important;
+}
+.nav-link:hover{
+	
+	background-color:white!important;
+	color:#f4511e!important;
+}
+
+.navbar-nav .active, .navbar-nav .active a{
+	background-color:white;
+	color:#f4511e;
+}
+
+/*end navbar*/
+
+
+
+
+
+
+/* start div1*/
+
+.div1{
+	
+	background-color:#f4511e;
+	color:white;
+}
+.div1 .btn{
+	
+	background-color:#f4511e;
+	color:white;
+	border:1px solid #d84517;
+}
+.div1  .btn:hover{
+	
+	background-color:#761c19;
+	color:white;
+}
+
+/*end div1*/
+
+
+
+
+
+/* start div2*/
+.div2{
+	background-color:white;
+	
+}
+section i{
+	
+	color:#f4511e;
+	font-size:200px;
+	
+}
+
+
+/*end div2*/
+/* start div4*/
+.div4{
+	background-color:white;
+	
+}
+.div4 i{
+	
+
+	font-size:50px;
+	
+}
+
+
+/*end div4*/
+/*start pricing*/
+.card-header{
+	background-color:#f4511e;
+}
+
+
+/*end pricing*/
+/*start carousel*/
+.carousel{
+	
+	background-color:#f6f6f6;
+	color:black;
+	
+}
+
+.carousel-indicators li{
+	
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	
+	background-color:white;
+	border:1px solid #f4511e;
+}
+
+.carousel-indicators .active{
+	background-color:#f4511e;
+	
+}
+
+.carousel-control-next-icon ,.carousel-control-prev-icon{
+	
+	background-image:none;
+	
+	
+}
+.carousel i{
+	
+	color:#f4511e;
+	font-size:25px;
+}
+/*end carousel*/
+
+
+
+/*start map*/
