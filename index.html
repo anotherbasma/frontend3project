@@ -12,7 +12,13 @@
 	<link rel="stylesheet" href="css/all.min.css" >
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	
+	
 	<link rel="stylesheet" href="css/main.css">
+
+	
+	
 
     <title>project</title>
   </head>
@@ -53,7 +59,7 @@
 		
 		<!-- start div1 jumbotron-->
 		<div class="jumbotron text-center div1">
-		  <h1 class="display-1 mt-5">Company</h1>
+		  <h1 class="display-1 mt-5 wow swing" data-wow-iteration="3">Company</h1>
 		  <p class="lead">We specialize in blablabla</p>
 		  <div class="container w-75 mb-5 m-auto">
 		  <input type="text" placeholder="Email Address" class="form-control d-inline-block w-75">
@@ -162,11 +168,11 @@
 		
 		<!-- start div5 -->
 		
-		<section class="jumbotron row  card-deck div5 " id="Pricing">
+		<section class="jumbotron row   div5 " id="Pricing">
 				<h3 class="col-12">PORTFOLIO</h3>
 				<p class="col-12">What we have created</p>
 		
-				
+				<div class="card-deck wow slideInUp" data-wow-duration="2s" data-wow-offset="50">
 				<div class="card col-12 col-md-4 px-0 mx-lg-2">
 				  <img src="images/paris.jpg" class="card-img-top" alt="...">
 				  <div class="card-body text-center text-justify">
@@ -190,6 +196,7 @@
 					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					
 				  </div>
+				</div>
 				</div>
 						
 		</section>
@@ -301,7 +308,7 @@
 			
 			
 			<div class="col-12 col-lg-6 p-5">
-				<form class="row">
+				<form class="row wow slideInUp" data-wow-duration="1s" >
 					<input type="text" placeholder="Name" class="form-control col-12 col-lg-5 mr-lg-2">
 					<input type="text" placeholder="Email" class="form-control col-12 col-lg-6 ">
 					<textarea class="form-control col-12 mt-2"  rows="3">
@@ -330,5 +337,11 @@
     <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+	
+	
+	<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
   </body>
 </html>
